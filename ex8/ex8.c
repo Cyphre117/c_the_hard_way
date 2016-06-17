@@ -5,8 +5,9 @@ int main(int argc, char *argv[])
     // The C99 standard only requires 16 bit signed ints from -32767 to +32767
     // Most common modern systems implement a 32bit int
     int areas[] = {10, 12, 13, 14, 20};
-    areas[1] = 120;
+    areas[0] = 100;
     char name[] = "Thomas";
+    areas[1] = name[0];
     name[0] = 'Z';
     name[1] = 'e';
     name[2] = 'd';
